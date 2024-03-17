@@ -1,0 +1,20 @@
+
+<h1>Visualiser un client</h1>
+<form action="/clients" method="get">
+    <table>
+        <tr>
+            <td>Nom</td>
+            <td><input type="text" name="nom" disabled value="<%=client.nom%>" /></td>
+        </tr>
+        <tr>
+            <td>Prénom</td>
+            <td><input type="text" name="prenom" disabled value="<%=client.prenom%>" /></td>
+        </tr>
+        <tr>
+            <td>Entreprise</td>
+            <td><input type="text" name="entreprise" disabled value="<%=client.entreprise%>" /></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" value="Fermer" />
+</form>

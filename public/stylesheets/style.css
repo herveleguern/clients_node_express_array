@@ -1,0 +1,14 @@
+body {
+  background-color: gainsboro;
+}
+input[type=submit]{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+}
+td {
+  color: red;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+}
